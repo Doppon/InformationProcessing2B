@@ -1,0 +1,6 @@
+PROG01    START   ENTRY
+ENTRY     LAD     GR1, 7
+          LAD     GR2, 3
+          SUBA    GR1, GR2
+          RET
+          END
