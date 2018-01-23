@@ -1,0 +1,8 @@
+REILD     START   ENTRY
+ENTRY     LD      GR1, DATA
+          LD      GR3, ONE  ;ココではサインフラグは変わらない！
+          ADDA    GR1, GR3
+          RET
+DATA      DC      -30
+ONE       DC      1
+          END
