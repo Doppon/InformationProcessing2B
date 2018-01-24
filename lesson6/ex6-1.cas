@@ -1,0 +1,12 @@
+REID64    START
+          OUT     OBUF1, LEN
+          OUT     OBUF2, LEN
+          OUT     OBUF3, LEN
+          RET
+OBUF1     DC      'ABC'
+OBUF2     DC      '123'
+LEN       DC      3
+OBUF3     DC      #0041, #0042, #0043
+          END
+;ABC123ABCの出力になる!
+
